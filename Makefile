@@ -2,10 +2,11 @@
 #
 #	Martin Guy, 8 April 2006
 
-BINDIR=$(DESTDIR)/usr/bin
-HELPDIR=$(DESTDIR)/usr/share/xvi
-MANDIR=$(DESTDIR)/usr/share/man/man1
-DOCDIR=$(DESTDIR)/usr/share/doc/xvi
+PREFIX	=/opt/xvi
+BINDIR=${PREFIX}/bin
+HELPDIR=${PREFIX}/share/xvi
+MANDIR=${PREFIX}/share/man/man1
+DOCDIR=${PREFIX}/share/doc/xvi
 
 PROG=src/xvi
 
